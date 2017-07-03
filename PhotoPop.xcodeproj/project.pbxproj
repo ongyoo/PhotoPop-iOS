@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B63099C71D539A1800DE0B83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63099C61D539A1800DE0B83 /* AppDelegate.swift */; };
+		B63099CC1D539A1800DE0B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63099CA1D539A1800DE0B83 /* Main.storyboard */; };
+		B63099CE1D539A1800DE0B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63099CD1D539A1800DE0B83 /* Assets.xcassets */; };
+		B63099D11D539A1800DE0B83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63099CF1D539A1800DE0B83 /* LaunchScreen.storyboard */; };
+		B63099DC1D539A1800DE0B83 /* PhotoPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63099DB1D539A1800DE0B83 /* PhotoPopTests.swift */; };
+		B63099E71D539A1800DE0B83 /* PhotoPopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63099E61D539A1800DE0B83 /* PhotoPopUITests.swift */; };
+		B6C9A9FB1D558C9B000E7171 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C9A9FA1D558C9B000E7171 /* BaseViewController.swift */; };
+		B6C9A9FD1D558CA9000E7171 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C9A9FC1D558CA9000E7171 /* BaseTableViewController.swift */; };
+		B6C9A9FF1D558CB8000E7171 /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C9A9FE1D558CB8000E7171 /* BaseCollectionViewController.swift */; };
+		B6C9AA011D558DE4000E7171 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C9AA001D558DE4000E7171 /* MainViewController.swift */; };
+		B6C9AA031D558E2D000E7171 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C9AA021D558E2D000E7171 /* MapKit.framework */; };
+		B6C9AA1A1D55FFAA000E7171 /* TakeImageButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C9AA181D55FFAA000E7171 /* TakeImageButtonViewController.swift */; };
+		B6C9AA1B1D55FFAA000E7171 /* TakeImageButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C9AA191D55FFAA000E7171 /* TakeImageButtonViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B63099D81D539A1800DE0B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B63099BB1D539A1800DE0B83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B63099C21D539A1800DE0B83;
+			remoteInfo = PhotoPop;
+		};
+		B63099E31D539A1800DE0B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B63099BB1D539A1800DE0B83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B63099C21D539A1800DE0B83;
+			remoteInfo = PhotoPop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B63099C31D539A1800DE0B83 /* PhotoPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63099C61D539A1800DE0B83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B63099CB1D539A1800DE0B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B63099CD1D539A1800DE0B83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B63099D01D539A1800DE0B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B63099D21D539A1800DE0B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63099D71D539A1800DE0B83 /* PhotoPopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoPopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63099DB1D539A1800DE0B83 /* PhotoPopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPopTests.swift; sourceTree = "<group>"; };
+		B63099DD1D539A1800DE0B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63099E21D539A1800DE0B83 /* PhotoPopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoPopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63099E61D539A1800DE0B83 /* PhotoPopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPopUITests.swift; sourceTree = "<group>"; };
+		B63099E81D539A1800DE0B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C9A9FA1D558C9B000E7171 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Controlles/BaseViewController.swift; sourceTree = "<group>"; };
+		B6C9A9FC1D558CA9000E7171 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseTableViewController.swift; path = Controlles/BaseTableViewController.swift; sourceTree = "<group>"; };
+		B6C9A9FE1D558CB8000E7171 /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseCollectionViewController.swift; path = Controlles/BaseCollectionViewController.swift; sourceTree = "<group>"; };
+		B6C9AA001D558DE4000E7171 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Controlles/MainViewController.swift; sourceTree = "<group>"; };
+		B6C9AA021D558E2D000E7171 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B6C9AA181D55FFAA000E7171 /* TakeImageButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TakeImageButtonViewController.swift; path = Views/TakeImageButtonViewController.swift; sourceTree = "<group>"; };
+		B6C9AA191D55FFAA000E7171 /* TakeImageButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TakeImageButtonViewController.xib; path = Views/TakeImageButtonViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B63099C01D539A1800DE0B83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C9AA031D558E2D000E7171 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63099D41D539A1800DE0B83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63099DF1D539A1800DE0B83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B63099BA1D539A1800DE0B83 = {
+			isa = PBXGroup;
+			children = (
+				B6C9AA021D558E2D000E7171 /* MapKit.framework */,
+				B63099C51D539A1800DE0B83 /* PhotoPop */,
+				B63099DA1D539A1800DE0B83 /* PhotoPopTests */,
+				B63099E51D539A1800DE0B83 /* PhotoPopUITests */,
+				B63099C41D539A1800DE0B83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B63099C41D539A1800DE0B83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B63099C31D539A1800DE0B83 /* PhotoPop.app */,
+				B63099D71D539A1800DE0B83 /* PhotoPopTests.xctest */,
+				B63099E21D539A1800DE0B83 /* PhotoPopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B63099C51D539A1800DE0B83 /* PhotoPop */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9AA171D55FF63000E7171 /* Views */,
+				B6C9A9F91D558C75000E7171 /* Controllers */,
+				B63099C61D539A1800DE0B83 /* AppDelegate.swift */,
+				B63099CA1D539A1800DE0B83 /* Main.storyboard */,
+				B63099CD1D539A1800DE0B83 /* Assets.xcassets */,
+				B63099CF1D539A1800DE0B83 /* LaunchScreen.storyboard */,
+				B63099D21D539A1800DE0B83 /* Info.plist */,
+			);
+			path = PhotoPop;
+			sourceTree = "<group>";
+		};
+		B63099DA1D539A1800DE0B83 /* PhotoPopTests */ = {
+			isa = PBXGroup;
+			children = (
+				B63099DB1D539A1800DE0B83 /* PhotoPopTests.swift */,
+				B63099DD1D539A1800DE0B83 /* Info.plist */,
+			);
+			path = PhotoPopTests;
+			sourceTree = "<group>";
+		};
+		B63099E51D539A1800DE0B83 /* PhotoPopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B63099E61D539A1800DE0B83 /* PhotoPopUITests.swift */,
+				B63099E81D539A1800DE0B83 /* Info.plist */,
+			);
+			path = PhotoPopUITests;
+			sourceTree = "<group>";
+		};
+		B6C9A9F91D558C75000E7171 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9A9FA1D558C9B000E7171 /* BaseViewController.swift */,
+				B6C9A9FC1D558CA9000E7171 /* BaseTableViewController.swift */,
+				B6C9A9FE1D558CB8000E7171 /* BaseCollectionViewController.swift */,
+				B6C9AA001D558DE4000E7171 /* MainViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B6C9AA171D55FF63000E7171 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9AA181D55FFAA000E7171 /* TakeImageButtonViewController.swift */,
+				B6C9AA191D55FFAA000E7171 /* TakeImageButtonViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B63099C21D539A1800DE0B83 /* PhotoPop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63099EB1D539A1800DE0B83 /* Build configuration list for PBXNativeTarget "PhotoPop" */;
+			buildPhases = (
+				B63099BF1D539A1800DE0B83 /* Sources */,
+				B63099C01D539A1800DE0B83 /* Frameworks */,
+				B63099C11D539A1800DE0B83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoPop;
+			productName = PhotoPop;
+			productReference = B63099C31D539A1800DE0B83 /* PhotoPop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B63099D61D539A1800DE0B83 /* PhotoPopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63099EE1D539A1800DE0B83 /* Build configuration list for PBXNativeTarget "PhotoPopTests" */;
+			buildPhases = (
+				B63099D31D539A1800DE0B83 /* Sources */,
+				B63099D41D539A1800DE0B83 /* Frameworks */,
+				B63099D51D539A1800DE0B83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B63099D91D539A1800DE0B83 /* PBXTargetDependency */,
+			);
+			name = PhotoPopTests;
+			productName = PhotoPopTests;
+			productReference = B63099D71D539A1800DE0B83 /* PhotoPopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B63099E11D539A1800DE0B83 /* PhotoPopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63099F11D539A1800DE0B83 /* Build configuration list for PBXNativeTarget "PhotoPopUITests" */;
+			buildPhases = (
+				B63099DE1D539A1800DE0B83 /* Sources */,
+				B63099DF1D539A1800DE0B83 /* Frameworks */,
+				B63099E01D539A1800DE0B83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B63099E41D539A1800DE0B83 /* PBXTargetDependency */,
+			);
+			name = PhotoPopUITests;
+			productName = PhotoPopUITests;
+			productReference = B63099E21D539A1800DE0B83 /* PhotoPopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B63099BB1D539A1800DE0B83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Komsit Developer";
+				TargetAttributes = {
+					B63099C21D539A1800DE0B83 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B63099D61D539A1800DE0B83 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B63099C21D539A1800DE0B83;
+					};
+					B63099E11D539A1800DE0B83 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B63099C21D539A1800DE0B83;
+					};
+				};
+			};
+			buildConfigurationList = B63099BE1D539A1800DE0B83 /* Build configuration list for PBXProject "PhotoPop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B63099BA1D539A1800DE0B83;
+			productRefGroup = B63099C41D539A1800DE0B83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B63099C21D539A1800DE0B83 /* PhotoPop */,
+				B63099D61D539A1800DE0B83 /* PhotoPopTests */,
+				B63099E11D539A1800DE0B83 /* PhotoPopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B63099C11D539A1800DE0B83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63099D11D539A1800DE0B83 /* LaunchScreen.storyboard in Resources */,
+				B63099CE1D539A1800DE0B83 /* Assets.xcassets in Resources */,
+				B63099CC1D539A1800DE0B83 /* Main.storyboard in Resources */,
+				B6C9AA1B1D55FFAA000E7171 /* TakeImageButtonViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63099D51D539A1800DE0B83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63099E01D539A1800DE0B83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B63099BF1D539A1800DE0B83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C9A9FD1D558CA9000E7171 /* BaseTableViewController.swift in Sources */,
+				B63099C71D539A1800DE0B83 /* AppDelegate.swift in Sources */,
+				B6C9A9FB1D558C9B000E7171 /* BaseViewController.swift in Sources */,
+				B6C9A9FF1D558CB8000E7171 /* BaseCollectionViewController.swift in Sources */,
+				B6C9AA011D558DE4000E7171 /* MainViewController.swift in Sources */,
+				B6C9AA1A1D55FFAA000E7171 /* TakeImageButtonViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63099D31D539A1800DE0B83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63099DC1D539A1800DE0B83 /* PhotoPopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63099DE1D539A1800DE0B83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63099E71D539A1800DE0B83 /* PhotoPopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B63099D91D539A1800DE0B83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B63099C21D539A1800DE0B83 /* PhotoPop */;
+			targetProxy = B63099D81D539A1800DE0B83 /* PBXContainerItemProxy */;
+		};
+		B63099E41D539A1800DE0B83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B63099C21D539A1800DE0B83 /* PhotoPop */;
+			targetProxy = B63099E31D539A1800DE0B83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B63099CA1D539A1800DE0B83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B63099CB1D539A1800DE0B83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B63099CF1D539A1800DE0B83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B63099D01D539A1800DE0B83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B63099E91D539A1800DE0B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B63099EA1D539A1800DE0B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B63099EC1D539A1800DE0B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.komsit.PhotoPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B63099ED1D539A1800DE0B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.komsit.PhotoPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B63099EF1D539A1800DE0B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.komsit.PhotoPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoPop.app/PhotoPop";
+			};
+			name = Debug;
+		};
+		B63099F01D539A1800DE0B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.komsit.PhotoPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoPop.app/PhotoPop";
+			};
+			name = Release;
+		};
+		B63099F21D539A1800DE0B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoPopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.komsit.PhotoPopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoPop;
+			};
+			name = Debug;
+		};
+		B63099F31D539A1800DE0B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoPopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.komsit.PhotoPopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoPop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B63099BE1D539A1800DE0B83 /* Build configuration list for PBXProject "PhotoPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63099E91D539A1800DE0B83 /* Debug */,
+				B63099EA1D539A1800DE0B83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63099EB1D539A1800DE0B83 /* Build configuration list for PBXNativeTarget "PhotoPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63099EC1D539A1800DE0B83 /* Debug */,
+				B63099ED1D539A1800DE0B83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63099EE1D539A1800DE0B83 /* Build configuration list for PBXNativeTarget "PhotoPopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63099EF1D539A1800DE0B83 /* Debug */,
+				B63099F01D539A1800DE0B83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63099F11D539A1800DE0B83 /* Build configuration list for PBXNativeTarget "PhotoPopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63099F21D539A1800DE0B83 /* Debug */,
+				B63099F31D539A1800DE0B83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B63099BB1D539A1800DE0B83 /* Project object */;
+}
